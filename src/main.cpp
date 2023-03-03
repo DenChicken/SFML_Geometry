@@ -1,13 +1,13 @@
-﻿// SFML_Geometry.cpp: определяет точку входа для приложения.
-//
-
+﻿
 #include <iostream>
+#include "Application.h"
 
 int main()
 {
     std::cout << "Hello CMake." << std::endl;
 
-    while (1) {}
+    Application app;
+    app.execute();
 
     return 0;
 }
