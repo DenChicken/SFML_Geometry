@@ -8,7 +8,7 @@ typedef std::string mystr;
 class BaseObject
 {
 public:
-    explicit BaseObject(const mystr &name = "BaseObject");
+    explicit BaseObject(const mystr& name = "BaseObject");
     virtual ~BaseObject();
 
     const mystr& name() { return m_name; }

@@ -8,9 +8,8 @@
 class Application : BaseObject
 {
 public:
-    explicit Application();
-    explicit Application(uint32_t width, uint32_t height, const mystr &title);
-    explicit Application(sf::RenderWindow *window);
+    explicit Application(uint32_t width = 1280, uint32_t height = 720, const mystr& title = "SFML_Geometry");
+    explicit Application(sf::RenderWindow* window);
     virtual ~Application();
 
     void execute();

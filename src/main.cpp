@@ -4,8 +4,6 @@
 
 int main()
 {
-    std::cout << "Hello CMake." << std::endl;
-
     Application app;
     app.execute();
 
